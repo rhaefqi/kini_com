@@ -1,0 +1,245 @@
+section#content {
+    margin-top: 90px;
+}
+
+small {
+    font-size: 12px;
+}
+
+.card-hero {
+    width: 870px;
+    transition: 1s ;
+}
+
+
+.img-hero {
+    border-radius: 8px;
+    width: 870px;
+    height: 400px;
+    border: 1px solid #7D858C;
+    transition: 1s;
+}
+
+.card-hero:hover{
+    transform: scale(1.09) ;
+}
+
+.layout-caption {
+    height: 170px;
+    width: 870px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    position: absolute;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.title-hero {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.thumbnail-latets {
+    width: 310px;
+    height: 176px;
+    border-radius: 8px;
+    border: 1px solid #7D858C;
+    transition: 1s;
+}
+
+.label-category {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    font-size: 12px;
+}
+
+
+.card-title-latets {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.multi-line-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* popular news */
+table tr th {
+    padding-right: 14px;
+    color: orange;
+    vertical-align: middle;
+}
+
+table tr td a {
+    color: black;
+    text-decoration: none;
+}
+
+table.table-striped tr th {
+    color: #dddddd;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer .footer-body {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 18px 0 4px 0;
+    box-sizing: border-box;
+}
+
+.footer-body h5 {
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+footer .copyright {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.copyright p {
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto 0;
+}
+
+.footer-body .sosmed {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.footer-body div.info {
+    width: 35%;
+    text-align: center;
+    margin: 16px auto;
+}
+
+.title-artikel {
+    font-size: 32px;
+}
+
+.image-artikel {
+    width: 700px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+/* ipad style responsive */
+@media screen and (max-width: 768px) {
+    .img-hero {
+        width: 647px;
+        height: 289px;
+    }
+
+    .thumbnail-latets {
+        width: 203px;
+        height: 128px;
+    }
+
+    .layout-caption {
+        height: 150px;
+        width: 647px;
+    }
+
+    .card-hero {
+        width: 647px;
+    }
+
+    .title-hero {
+        font-size: 24px;
+    }
+
+    .label-category {
+        top: 6px;
+        right: 12px;
+    }
+
+    small {
+        font-size: 12px;
+    }
+
+    .image-artikel {
+        width: 630px;
+        height: 315px;
+    }
+}
+
+/* smartphone style responsive */
+@media screen and (max-width: 576px) {
+    .img-hero {
+        width: 305px;
+        height: 200px;
+        border: none;
+    }
+
+    .thumbnail-latets {
+        width: 143px;
+        height: 96px;
+        border: none;
+    }
+
+    .layout-caption {
+        height: 100px;
+        width: 305px;
+    }
+
+    .card-hero {
+        width: 305px;
+    }
+
+    .title-hero {
+        font-size: 16px;
+    }
+
+    .label-category {
+        top: 4px;
+        right: 14px;
+        font-size: 10px;
+    }
+
+    .list-judul {
+        font-size: 16px;
+    }
+
+    .list-label {
+        font-size: 12px;
+    }
+
+    .footer-body div.info {
+        width: 90%;
+    }
+
+    .title-artikel {
+        font-size: 24px;
+    }
+
+    .image-artikel {
+        width: 350px;
+        height: 175px;
+        max-width: 100%;
+    }
+}
